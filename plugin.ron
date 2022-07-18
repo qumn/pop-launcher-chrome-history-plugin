@@ -1,0 +1,13 @@
+(
+    name: "search chrome history",
+    description: "search chrome history",
+    query: (
+        regex: "^(ch )+",
+        help: "ch ",
+        isolate: true,
+        no_sort: true,
+    ),
+    bin: (path: "ch"),
+    icon: Name("text-editor-symbolic"),
+    history: false,
+)
